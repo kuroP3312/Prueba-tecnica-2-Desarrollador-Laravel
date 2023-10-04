@@ -12,7 +12,7 @@
                                 <a class="btn btn-primary" href="{{ route('index') }}"> Atras</a>
                             </div>
                             <div>
-                                <span class="card-title">Editar Producto</span>
+                                <span class="card-title">Ver detalles</span>
                             </div>
                             <div class="float-right"></div>
                         </div>
