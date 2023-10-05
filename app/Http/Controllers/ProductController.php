@@ -39,12 +39,14 @@ class ProductController extends Controller
         return redirect()->route('index');
     }
 
-    public function getDetails(){
-        return view('products.index');
+    public function getDetails($id){
+        $product = Product::find($id);
+        return view('products.get-details', compact('product'));
     }
 
-    public function delete(){
-        return view('products.index');
+    public function delete($id){
+        $delete = Product::find($id)->delete();
+        return redirect()->route('index');
     }
 
 }

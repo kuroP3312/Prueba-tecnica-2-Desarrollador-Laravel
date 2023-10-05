@@ -29,7 +29,7 @@
 
 </head>
 
-<body style="background-image: url('public/images/code.jpg')">
+<body style="background-image: url({{asset('assets/images/code.jpg')}})">
 
     <header>
 
@@ -37,7 +37,7 @@
     <nav class="navbar navbar-expand navbar-light bg-light">
       <ul class="nav navbar-nav">
           <li class="nav-item">
-              <a class="nav-link active" href="HomeController/index" aria-current="page">Prueba Tecnica 2 - Laravel<span class="visually-hidden">(current)</span></a>
+              <a class="nav-link active" href="/" aria-current="page">Prueba Tecnica 2 - Laravel<span class="visually-hidden">(current)</span></a>
           </li>
       </ul>
     </nav>
