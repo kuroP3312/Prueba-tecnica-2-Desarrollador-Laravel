@@ -6,7 +6,7 @@
         </div>
         <div class="form-group">
             <label for="price">Precio $</label>
-            <input type="text" class="form-control" name="price" value="{{$product->price}}" id="price" required>
+            <input type="text" class="form-control" name="price" value="{{$product->price}}" id="price" onkeypress="return ((event.charCode >= 48 && event.charCode <= 57)|| event.charCode == 46)" required>
         </div>
         <div class="form-group">
             <label for="quantity">Existencias</label>
